@@ -1,8 +1,9 @@
 import requests
+import api_dados
 
-key = "f3c302cd694f6993bbd095ac66b4ad03"
-lat = "-22.781944"
-lon = "-43.428889"
+key = api_dados.Key
+lat = api_dados.Lat
+lon = api_dados.Lon
 
 try:
       response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={key}&units=metric&lang=pt_br")
