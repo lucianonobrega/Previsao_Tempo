@@ -1,3 +1,8 @@
 -----Atualização para versão 1.1-----
 Ocultação da chave api e da latitude e longitude no código.
 Obs: O código e executável irão fornecer os dados da previsão do tempo da cidade de Mesquita apenas. Caso queira ver a previsão do tempo da sua cidade, terá que baixar o código e colocar os dados de latitude e longitude nas respectivas variáveis e também colocar a sua própria chave da api (site: weather api).
+
+-----Atualização para versão 1.2-----
+Adicionado status code e reason.
+
+Obs:Para a próxima atualização, pretendo adicionar campos de latitude e longitude na interface (executável) para que os usuários possam preencher os campos e assim obterem a previsão do tempo de suas respectivas cidades.
